@@ -3,6 +3,7 @@
     package="com.supermario.programer.qmuisamples">
 
     <application
+        android:name=".QMUIApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -16,6 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".BaseActivity" />
+        <activity android:name=".RefreshLoadingActivity" />
     </application>
 
 </manifest>
