@@ -11,7 +11,6 @@ import com.qmuiteam.qmui.util.QMUIStatusBarHelper;
  * Function: base
  * Author Name: Chris
  * Date: 2019/4/23 13:21
- * Copyright © 2006-2018 高顿网校, All Rights Reserved.
  */
 
 public class BaseActivity extends QMUIActivity {
@@ -19,9 +18,9 @@ public class BaseActivity extends QMUIActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_base);
-        QMUIStatusBarHelper.translucent(this);
+//        QMUIStatusBarHelper.translucent(this);
         QMUIStatusBarHelper.setStatusBarLightMode(this);
+        setContentView(R.layout.activity_base);
     }
 
     public void initView() {

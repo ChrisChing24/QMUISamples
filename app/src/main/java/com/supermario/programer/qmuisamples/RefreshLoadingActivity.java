@@ -18,7 +18,6 @@ import butterknife.ButterKnife;
  * Function: 有关刷新和loadingView的页面
  * Author Name: Chris
  * Date: 2019/4/23 14:14
- * Copyright © 2006-2018 高顿网校, All Rights Reserved.
  */
 
 public class RefreshLoadingActivity extends BaseActivity {

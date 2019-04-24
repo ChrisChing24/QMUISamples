@@ -21,7 +21,6 @@ import butterknife.OnClick;
  * Function: 显示各种dialog的activity
  * Author Name: Chris
  * Date: 2019/4/23 10:44
- * Copyright © 2006-2018 高顿网校, All Rights Reserved.
  */
 
 public class DialogActivity extends BaseActivity {
